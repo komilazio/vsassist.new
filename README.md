@@ -40,3 +40,8 @@ require("vsassist").setup({
     },
 })
 ```
+
+```lua
+
+vim.cmd("colorscheme vsassist")
+```
