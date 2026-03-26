@@ -1,6 +1,22 @@
 local hl = vim.api.nvim_set_hl
 local theme = {}
 
+theme.set_special_comments = function ()
+vim.cmd([[
+highlight Todo  ctermfg=NONE ctermfg=Green guifg=#A8FF4A
+highlight Bug   ctermfg=NONE ctermfg=Red guifg=#FF1431
+highlight Perf  ctermfg=NONE ctermfg=Yellow guifg=#F8E71C
+highlight Note  ctermfg=NONE ctermfg=Blue guifg=#2BFCC8
+highlight Fixme ctermfg=NONE ctermfg=Magenta guifg=#FF4D14
+
+autocmd BufRead,BufNewFile * call matchadd('Todo', '\<TODO\>')
+autocmd BufRead,BufNewFile * call matchadd('Bug', '\<BUG\>')
+autocmd BufRead,BufNewFile * call matchadd('Perf', '\<PERF\>')
+autocmd BufRead,BufNewFile * call matchadd('Note', '\<NOTE\>')
+autocmd BufRead,BufNewFile * call matchadd('Fixme', '\<FIXME\>')
+]])
+end
+
 theme.set_highlights = function(opts)
     local c = require("vsassist.colors").get_colors()
     c = vim.tbl_extend("force", c, opts["color_overrides"])

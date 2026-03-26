@@ -3,12 +3,7 @@
 This is copy of BoHomola/vsassist.nvim that has now been Archived with little changes.
 Neovim colour scheme strongly inspired by The Cherno's Visual Studio colour scheme. It's a mix of VSCode, VSAssist (Visual Assist - VS extension) and Gruvbox.
 
-Code based on [vsassist.nvim](https://github.com/BoHomola/vsassist.nvim) theme, which is based on [vscode.nvim](https://github.com/Mofiqul/vscode.nvim). It is customised for:
-- C
-- C++
-- LaTeX
-
-Remaining highlights (such as lua, typescript, js, css, etc.) remain default (Mofiqul's vscode.nvim).
+Code based on [vsassist.nvim](https://github.com/BoHomola/vsassist.nvim) theme, which is based on [vscode.nvim](https://github.com/Mofiqul/vscode.nvim).
 
 Scheme works with lsp semantic tokens.
 
@@ -44,5 +39,4 @@ require("vsassist").setup({
         vscLineNumber = '#FFFFFF',
     },
 })
-```
 ```

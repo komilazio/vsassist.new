@@ -52,6 +52,7 @@ vsassist.setup = function(user_opts)
 
     theme.set_highlights(opts)
     theme.link_highlight()
+    theme.set_special_comments()
 
     for group, val in pairs(opts['group_overrides']) do
         vim.api.nvim_set_hl(0, group, val)
