@@ -79,6 +79,7 @@ colors.get_colors = function()
 
         -- VSAssist specific
         vsaGold = "#ffd700", -- Yellow, kind of
+        vsaGold2 = "#E0C019", -- Yellow, kind of
         vsaDarkKhaki = "#bdb76b",
         vsaPurple = "#bd63c5",
         vsaBrown = "#bd63c5",
@@ -90,7 +91,8 @@ colors.get_colors = function()
         gruvRed = "#fb4934",
         gruvPurple = "#d3869b",
         gruvFg1 = "#dfd9c2", -- Dirty white
-        gruvFg2 = "#c1b6a3", -- Darker dirty white
+        gruvFg2 = "#A59A88", -- Darker dirty white
+        gruvFg3 = "#D3BC96", -- Darker dirty white
     }
 
     -- Other ui specific colors
@@ -102,3 +104,4 @@ colors.get_colors = function()
 end
 
 return colors
+

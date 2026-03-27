@@ -128,7 +128,7 @@ theme.set_highlights = function(opts)
     hl(0, "@float", { fg = c.gruvPurple, bg = "NONE" })
     hl(0, "@annotation", { fg = c.vsaGold, bg = "NONE" })
     hl(0, "@attribute", { fg = c.vsaGold, bg = "NONE" })
-    hl(0, "@namespace", { fg = c.gruvFg1, bg = "NONE" })
+    hl(0, "@namespace", { fg = c.gruvFg3, bg = "NONE" })
     hl(0, "@function.builtin", { fg = c.vsaGold, bg = "NONE" })
     hl(0, "@function", { fg = c.vsaGold, bg = "NONE" })
     hl(0, "@function.macro", { fg = c.gruvPurple, bg = "NONE" })
@@ -157,7 +157,8 @@ theme.set_highlights = function(opts)
     hl(0, "@storageClass", { fg = c.gruvRed, bg = "NONE" })
     hl(0, "@structure", { fg = c.vsaGold, bg = "NONE" })
     hl(0, "@include", { fg = c.gruvRed, bg = "NONE" })
-    hl(0, "@variable", { fg = c.gruvBlue, bg = "NONE" })
+    -- hl(0, "@variable", { fg = c.gruvBlue, bg = "NONE" })
+    hl(0, "@variable", { fg = c.gruvFg3, bg = "NONE" })
     hl(0, "@variable.builtin", { fg = c.gruvRed, bg = "NONE" })
     hl(0, "@text", { fg = c.vscFront, bg = "NONE" })
     hl(0, "@text.underline", { fg = c.vscYellowOrange, bg = "NONE" })
@@ -728,3 +729,4 @@ theme.link_highlight = function()
 end
 
 return theme
+
