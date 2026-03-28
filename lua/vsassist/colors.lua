@@ -91,7 +91,7 @@ colors.get_colors = function()
         gruvPurple = "#d3869b",
         gruvFg1 = "#dfd9c2", -- Dirty white
         gruvFg2 = "#A59A88", -- Darker dirty white
-        gruvFg3 = "#D3BC96", -- Darker dirty white
+        gruvFg3 = "#D3BC96", -- Darker dirty white two
     }
 
     -- Other ui specific colors
