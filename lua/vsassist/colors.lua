@@ -5,8 +5,7 @@ colors.get_colors = function()
     mycolors = {
         -- VS Code specific
         vscNone = "NONE",
-        vscFront = "#D4D4D4",
-        -- vscBack = "#1E1E1E",
+        vscFront = "#D3BC96",
         vscBack = "#141415",
         vscGreenNew = "#37DB35",
 
